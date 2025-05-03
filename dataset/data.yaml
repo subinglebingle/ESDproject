@@ -1,5 +1,5 @@
 train: /content/dataset/images/train
 val: /content/dataset/images/val
 
-nc: 1
-names: ['object']
+nc: 2
+names: ['person', 'drinks']
