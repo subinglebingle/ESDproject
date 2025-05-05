@@ -1,13 +1,13 @@
 # ESDproject
 
-##dataset
+## dataset
 
-  -data_resize: 원본 데이터를 640x640의 해상도로 변경
+* data_resize: 원본 데이터를 640x640의 해상도로 변경
   
-  -data_label: labelImage 프로그램을 사용하여 라벨링됨
+* data_label: labelImage 프로그램을 사용하여 라벨링됨
   
 
-##성능 평가를 위해서 '비교' 시스템 구축
+## 성능 평가를 위해서 '비교' 시스템 구축
 
   기본 YOLO
   
@@ -22,7 +22,7 @@
   비교모델+ 추가 데이터 학습
   
 
-##계획
+## 계획
 8주차: 데이터 수집
 
 9주차: 데이터 수집, ROI 설정한 YOLO모델 구현
