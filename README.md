@@ -1,5 +1,17 @@
 # ESDproject
 
+This repository contains the code for the Embedded System Design course project.
+
+## Change log
+
+[25/05/05] Uploaded custom dataset: 233 images with labels.
+
+[25/05/14] Uploaded inference code for Raspberry Pi and PiCamera.
+
+>Includes ROI setting, buzzer activation upon detecting 'drinks' and FPS display functionality.
+
+[25/05/15] Uploaded training code, including the trained weights best.pt.
+
 ## dataset
 
 * data_resize: 원본 데이터를 640x640의 해상도로 변경
@@ -8,18 +20,12 @@
   
 
 ## 성능 평가를 위해서 '비교' 시스템 구축
-
-  기본 YOLO
   
   기본 YOLO+ 추가 데이터 학습
   
-  기본 YOLO+ ROI설정
-  
   기본 YOLO+ 추가 데이터 학습+ ROI설정 (*최종 목표)
   
-  비교모델
-  
-  비교모델+ 추가 데이터 학습
+  비교모델 (to be determined)
   
 
 ## 계획
