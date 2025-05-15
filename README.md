@@ -45,7 +45,9 @@
 ## 중간결과
 
 노트북 & 내장웹캠
+
 ![Image](https://github.com/user-attachments/assets/fc4f456f-3b0d-4c6a-981f-c8e199b8afdd)
 
 라즈베리파이 & picamera
+
 ![Image](https://github.com/user-attachments/assets/e3dd7413-1ae2-46ce-8cd6-c850b1fba399)
