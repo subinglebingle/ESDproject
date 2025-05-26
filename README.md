@@ -12,6 +12,8 @@ This repository contains the code for the Embedded System Design course project.
 
 [25/05/15] Uploaded training code, including the trained weights best.pt.
 
+[25/05/26] Add 46 images with labels
+
 ## dataset
 
 * data_resize: 원본 데이터를 640x640의 해상도로 변경
