@@ -8,11 +8,11 @@ import sys
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-YOLOV5_PATH = os.path.join(ROOT, 'yolov5')
+YOLOV5_PATH = os.path.join(ROOT)
 sys.path.append(YOLOV5_PATH)
 
 from models.common import DetectMultiBackend
-from utils.general import non_max_suppression, scale_coords
+from utils.general import non_max_suppression
 from utils.torch_utils import select_device
 
 device = select_device('cpu')
@@ -31,7 +31,7 @@ prev_time = 0
 try:
     while True:
         # capture_array() 대신 capture_image().to_array() 사용
-        frame = picam2.capture_image().to_array()
+        frame = picam2.capture_array()
         orig = frame.copy()
 
         # 입력 이미지 크기 320x320으로 변경 (YOLO 입력 크기 맞춤)
