@@ -8,7 +8,7 @@ import sys
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-YOLOV5_PATH = os.path.join(ROOT, 'yolov5')
+YOLOV5_PATH = os.path.join(ROOT)
 sys.path.append(YOLOV5_PATH)
 
 from models.common import DetectMultiBackend
@@ -37,7 +37,7 @@ prev_time = 0
 
 try:
     while True:
-        frame = picam2.capture_image().to_array()
+        frame = picam2.capture_array()
         orig = frame.copy()
 
         # 공통 입력 이미지 전처리
