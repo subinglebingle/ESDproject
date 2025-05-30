@@ -10,11 +10,11 @@ import sys
 import os
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-YOLOV5_PATH = os.path.join(ROOT, 'yolov5')
+YOLOV5_PATH = os.path.join(ROOT)
 sys.path.append(YOLOV5_PATH)
 
 from models.common import DetectMultiBackend
-from utils.general import non_max_suppression, scale_coords
+from utils.general import non_max_suppression
 from utils.torch_utils import select_device
 
 device = select_device('cpu')
