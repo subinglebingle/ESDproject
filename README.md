@@ -113,13 +113,13 @@ This system is expected to be applicable in various environments such as hospita
   ![Image](https://github.com/user-attachments/assets/a057fc08-da42-4771-b00f-6004a60cbd4b)  
   ![Image](https://github.com/user-attachments/assets/78a53ba7-87fb-4dd6-a1ad-d0710e6cb37a)
 
-* Model Behavior Without a Drink 
+* Model Behavior Without a Drink    
   ![Image](https://github.com/user-attachments/assets/f3754cc3-ccf6-4c57-aecd-0c1795e5300e)
 
-* Model Performance on Corner Case
+* Model Performance on Corner Case   
   ![Image](https://github.com/user-attachments/assets/bb3400a9-2714-4aff-8fcf-27467c2150ac)
 
-* Comparison Model: Without ROI 
+* Comparison Model: Without ROI    
   ![Image](https://github.com/user-attachments/assets/12580495-fa02-4e9f-9c3a-5722016f93e2)  
   ![Image](https://github.com/user-attachments/assets/f8da88cf-784d-444e-a959-7a1d92ed3464)
 
