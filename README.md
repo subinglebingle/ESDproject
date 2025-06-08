@@ -1,9 +1,9 @@
 # ESDproject
 
-This repository contains the code for the Embedded System Design course project.
+This repository contains the code for 'Embedded System Design' course project.
 
 Our model, based on YOLOv5, detects beverages and triggers a buzzer alarm upon detection.
-We use MediaPipe to recognize faces and hands and set a ROI to improve accuracy.
+We use MediaPipe to recognize hands and set a ROI to improve accuracy.
 
 This system is expected to be applicable in various environments such as hospitals, public transportation, and libraries.
 
