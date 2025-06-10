@@ -9,15 +9,15 @@ This system is expected to be applicable in various environments such as hospita
 
 ## Index
 
-[🗺️Roadmap](##-🗺️Roadmap)
+[🗺️Roadmap](##-Roadmap)
 
-[📝Change Log](##-📝Change-log)
+[📝Change Log](##-Change-log)
 
-[📂Dataset](##-📂Dataset)
+[📂Dataset](##-Dataset)
 
-[🧠Models for Comparative Evaluation](##-🧠Models-for-Comparative-Evaluation)
+[🧠Models for Comparative Evaluation](##-Models-for-Comparative-Evaluation)
 
-[🔬Experiments](##-🔬Experiments)
+[🔬Experiments](##-Experiments)
 
 
 
