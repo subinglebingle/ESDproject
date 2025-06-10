@@ -9,19 +9,16 @@ This system is expected to be applicable in various environments such as hospita
 
 ## Index
 
-[🗺️Roadmap](##-Roadmap)
-
-[📝Change Log](##-Change-log)
-
-[📂Dataset](##-Dataset)
-
-[🧠Models for Comparative Evaluation](##-Models-for-Comparative-Evaluation)
-
-[🔬Experiments](##-Experiments)
+[🗺️Roadmap](#roadmap)  
+[📝Change Log](#change-log)  
+[📂Dataset](#dataset)  
+[🧠Model for Comparative Evaluation](#model-for-comparative-evaluation)  
+[🔬Experiments](#experiments)  
 
 
 
-## 🗺️Roadmap
+
+## Roadmap
 8주차: 데이터 수집
 
 9주차: 데이터 수집, ROI 설정한 YOLO모델 구현
@@ -43,7 +40,7 @@ This system is expected to be applicable in various environments such as hospita
 14주차: 결과정리, 비교, 분석
 
 
-## 📝Change log
+## Change log
 
 [25/05/05] Uploaded custom dataset: 233 images with labels.
 
@@ -55,7 +52,7 @@ This system is expected to be applicable in various environments such as hospita
 
 [25/05/26] Add 46 images with labels (total)
 
-## 📂Dataset
+## Dataset
 
 * custom data: 279개의 직접 수집한 이미지와 라벨
 
@@ -66,7 +63,7 @@ This system is expected to be applicable in various environments such as hospita
 * 최종 모델은 coco dataset 중 'bottle'과 'cup'이 포함된 1352개의 데이터를 커스텀 데이터에 추가하여 **1631개의 데이터**로 학습
   
 
-## 🧠Model for Comparative Evaluation
+## Model for Comparative Evaluation
   
   기본 YOLO+ 커스텀 데이터
 
@@ -75,7 +72,7 @@ This system is expected to be applicable in various environments such as hospita
   기본 YOLO+ 커스텀 & coco 데이터 학습+ ROI설정 (*최종 목표)
   
 
-## 🔬Experiments
+## Experiments
 
 <details>
   <summary>중간결과</summary>
