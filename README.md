@@ -12,7 +12,8 @@ This system is expected to be applicable in various environments such as hospita
 [🗺️Roadmap](#roadmap)  
 [📝Change Log](#change-log)  
 [📂Dataset](#dataset)  
-[🧠Model for Comparative Evaluation](#model-for-comparative-evaluation)  
+[🧠Model for Comparative Evaluation](#model-for-comparative-evaluation)   
+[🚀 How to Use the Model](#How-to-Use-the-Model)  
 [🔬Experiments](#experiments)  
 
 
@@ -70,7 +71,23 @@ This system is expected to be applicable in various environments such as hospita
   기본 YOLO+ 커스텀 & coco 데이터 학습
   
   기본 YOLO+ 커스텀 & coco 데이터 학습+ ROI설정 (*최종 목표)
-  
+     
+## How to Use the Model
+
+1. **Download `final_drinkdetection.py`**  
+   Download the `final_drinkdetection.py` file and place it in the `yolov5` directory.
+
+2. **Run `final_drinkdetection.py` and enter your email address**  
+   Execute the script and enter the email address where you want to receive warning alerts.  
+   >  Warning emails are sent with a minimum interval of 60 seconds between each alert.
+
+
+3. **Detection and Alerts**  
+   Once detection is triggered, a buzzer will sound and a warning email will be sent to the provided address.
+
+
+
+
 
 ## Experiments
 
