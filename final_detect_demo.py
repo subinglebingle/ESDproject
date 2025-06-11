@@ -10,7 +10,7 @@ from picamera2 import Picamera2
 import smtplib
 from email.mime.text import MIMEText
 
-email=input(print('이메일을 입력해주세요'))
+email=input('이메일을 입력해주세요':)
 if '@' in email:
     email=email
 else: email='embeddedsystemdesign@naver.com'
