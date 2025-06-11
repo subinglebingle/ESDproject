@@ -10,6 +10,11 @@ from picamera2 import Picamera2
 import smtplib
 from email.mime.text import MIMEText
 
+email=input(print('이메일을 입력해주세요(n 입력시 기본이메일) >'))
+if '@' in email:
+    email=email
+else: email='embeddedsystemdesign@naver.com'
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 YOLOV5_PATH = os.path.join(ROOT)
 sys.path.append(YOLOV5_PATH)
@@ -43,12 +48,12 @@ def send_email():
     try:
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
         smtp.starttls()
-        smtp.login('embeddedsystemdesign12@gmail.com', 'vfnfiybfutnwsbba')  # 보안 주의!
+        smtp.login('embeddedsystemdesign12@gmail.com', 'vfnfiybfutnwsbba') 
         msg = MIMEText('room no.10')
-        msg['Subject'] = '경고: drinks detected'
+        msg['Subject'] = '경고: drinks detected (room no.10)'
         msg['From'] = 'embeddedsystemdesign12@gmail.com'
-        msg['To'] = 'embeddedsystemdesign@naver.com'
-        smtp.sendmail('embeddedsystemdesign12@gmail.com', 'embeddedsystemdesign@naver.com', msg.as_string())
+        msg['To'] = email
+        smtp.sendmail('embeddedsystemdesign12@gmail.com', email, msg.as_string())
         smtp.quit()
         print("email sent.")
     except Exception as e:
