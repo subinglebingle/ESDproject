@@ -112,6 +112,19 @@ This system is expected to be applicable in various environments such as hospita
 
 </details> 
 
+
+<details>
+<summary>📷 Recommended Camera Installation Environment</summary>
+
+![Image](https://github.com/user-attachments/assets/9cd823a8-c96f-45ff-9fe8-a5d4332f915f)  
+![Image](https://github.com/user-attachments/assets/fa1b72c7-9eb1-470d-92fd-94f2550e0936)  
+![Image](https://github.com/user-attachments/assets/31e0666b-5520-4d71-9fdb-49232b3628a7)   
+
+
+</details>
+
+
+
 ---
 
 ### 최종결과
@@ -149,9 +162,3 @@ This system is expected to be applicable in various environments such as hospita
 
 
 
-<details>
-<summary>📷 Recommended Camera Installation Environment</summary>
-
-![Image](https://github.com/user-attachments/assets/9cd823a8-c96f-45ff-9fe8-a5d4332f915f)  
-![Image](https://github.com/user-attachments/assets/fa1b72c7-9eb1-470d-92fd-94f2550e0936)  
-![Image](https://github.com/user-attachments/assets/31e0666b-5520-4d71-9fdb-49232b3628a7)
