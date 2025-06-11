@@ -74,8 +74,9 @@ This system is expected to be applicable in various environments such as hospita
      
 ## How to Use the Model
 
-1. **Download `final_drinkdetection.py`**  
-   Download the `final_drinkdetection.py` file and place it in the `yolov5` directory.
+1. **Download `final_drinkdetection.py` and `best.pt**  
+   Download the `final.py` and `best.pt` files, and place both of them in the `yolov5` directory.
+
 
 2. **Run `final_drinkdetection.py` and enter your email address**  
    Execute the script and enter the email address where you want to receive warning alerts.  
