@@ -51,7 +51,12 @@ This system is expected to be applicable in various environments such as hospita
 
 [25/05/15] Uploaded training code, including the trained weights best.pt.
 
-[25/05/26] Add 46 images with labels (total)
+[25/05/26] Add 46 images with labels (total 279)   
+
+[25/05/26] Uploaded `best.pt`
+
+[25/06/10] Uploaded `final_drinkdetection.py`
+
 
 ## Dataset
 
@@ -75,7 +80,7 @@ This system is expected to be applicable in various environments such as hospita
 ## How to Use the Model
 
 1. **Download `final_drinkdetection.py` and `best.pt`**  
-   Download the `final.py` and `best.pt` files, and place both of them in the `yolov5` directory.
+   Download the `final_drinkdetection.py` and `best.pt` files, and place both of them in the `yolov5` directory.
 
 
 2. **Run `final_drinkdetection.py` and enter your email address**  
