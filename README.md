@@ -2,8 +2,10 @@
 
 This repository contains the code for 'Embedded System Design' course project.
 
-Our model, based on YOLOv5, detects beverages and triggers a buzzer alarm upon detection.
-We use MediaPipe to recognize hands and set a ROI to improve accuracy.
+Our model, based on YOLOv5, detects beverages and triggers a buzzer alarm upon detection.    
+When the alarm sounds, a warning email is also sent to the administrator.    
+MediaPipe is used to detect hands and set a ROI, improving accuracy and frame rate.
+ 
 
 This system is expected to be applicable in various environments such as hospitals, public transportation, and libraries.
 
